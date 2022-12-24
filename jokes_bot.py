@@ -1,9 +1,10 @@
 import random
 
-from aiogram import Bot, Dispatcher, types
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from aiogram.utils import executor
-from parser_joke import run_tasks
+from aiogram import Bot, Dispatcher, types  # импортируем из aiogram, Bot который отвечает за инициализацию бота,
+# Dispatcher который вызывает бота
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup  # инициализация кнопок
+from aiogram.utils import executor  # executor который запускает бота
+from parser_joke import run_tasks  # запуск парсера
 
 bot = Bot('5846191784:AAHRbeVwS5SfmfzgSI0gFDNbOCrushXr6S8')
 
